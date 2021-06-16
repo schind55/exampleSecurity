@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01fd4d85-d9f9-478e-8a3b-5bfebb0850a3" name="Default Changelist" comment="tests are running">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec-solution-min/src/main/java/edu/de/uni/passau/webeng/students/persistence/entities/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec-solution-min/src/main/java/edu/de/uni/passau/webeng/students/persistence/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec-solution-min/src/main/java/edu/de/uni/passau/webeng/students/persistence/entities/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec-solution-min/src/main/java/edu/de/uni/passau/webeng/students/persistence/repository/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec-solution-min/src/main/java/edu/de/uni/passau/webeng/students/persistence/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec-solution-min/src/main/java/edu/de/uni/passau/webeng/students/persistence/repository/LocationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec-solution-min/src/test/java/edu/de/uni/passau/webeng/students/StudentServicesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sec-solution-min/src/test/java/edu/de/uni/passau/webeng/students/StudentServicesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec-solution-min/students.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sec-solution-min/students.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec-solution-min/target/test-classes/edu/de/uni/passau/webeng/students/StudentServicesApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/sec-solution-min/target/test-classes/edu/de/uni/passau/webeng/students/StudentServicesApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1u26OOspCJt8uQef3fdmGKtelEJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="StudentServicesApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="students" />
@@ -21,5 +70,39 @@
         <item itemvalue="JUnit.StudentServicesApplicationTests" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01fd4d85-d9f9-478e-8a3b-5bfebb0850a3" name="Default Changelist" comment="" />
+      <created>1623851303875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623851303875</updated>
+    </task>
+    <task id="LOCAL-00001" summary="tests are running">
+      <created>1623851443139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623851443139</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tests are running" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests are running" />
   </component>
 </project>
