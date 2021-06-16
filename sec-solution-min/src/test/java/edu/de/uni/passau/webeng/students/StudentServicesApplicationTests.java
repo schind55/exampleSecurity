@@ -1,7 +1,5 @@
 package edu.de.uni.passau.webeng.students;
 
-import edu.de.uni.passau.webeng.students.persistence.entities.Course;
-import edu.de.uni.passau.webeng.students.persistence.repository.CourseRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +13,6 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
-import static org.springframework.test.util.AssertionErrors.assertEquals;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -27,9 +24,6 @@ public class StudentServicesApplicationTests {
 
     @Autowired
     private WebApplicationContext context;
-
-    @Autowired
-    private CourseRepository courseRepository;
 
     private MockMvc mvc;
 
@@ -48,20 +42,6 @@ public class StudentServicesApplicationTests {
                 "{\"matrNr\":34622,\"firstName\":\"Hans\",\"lastName\":\"Muster\"}"
         ));
 	}
-
-	@Test
-    public void tryTest1() {
-        courseRepository.save(new Course("test", "this is a test"));
-        System.out.println(assertEquals("  ", "  "));
-        int index = 1;
-        System.out.println(courseRepository.findAll().get(index).getTitle());
-        System.out.println(courseRepository.findAll().get(index).getDescription());
-        System.out.println(assertEquals("test", courseRepository.findAll().get(0).getTitle()));
-    }
-
-    private boolean assertEquals(String s, String s1) {
-         return (s.equals(s1));
-    }
 
     @Test
     public void getStudentTestDenied() throws Exception {
